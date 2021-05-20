@@ -75,7 +75,7 @@ def computer():
      global name
      if stone==19 or stone==16 or stone==13 or stone==10 or stone==7 or stone==17 or stone==14 or stone==11 or stone==8 or stone==5 or stone==2 or stone==4:
       stone-=1
-      time.sleep(2)
+      time.sleep(1)
       print('Computer took 1 stone\n')
       print('Balance stones=',stone,'\n')
       if stone<=1:
@@ -91,7 +91,7 @@ def computer():
       player()
      elif stone==18 or stone==15 or stone==12 or stone==9 or stone==6 or stone==3:
       stone-=2
-      time.sleep(2)
+      time.sleep(1)
       print('Computer took 2 stone\n')
       print('Balance stones=',stone,'\n\n')
       if stone<=1:
