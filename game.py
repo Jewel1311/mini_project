@@ -68,6 +68,7 @@ def player():
       computer()
      else:
       print("\n**********Invalid input Please enter 1 or 2***********\n\n\n\t\t\tRESTARTING\n\n")
+      stone=20
       begin()
 
 def computer():
